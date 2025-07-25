@@ -76,6 +76,7 @@ class pcie_tlp_driver extends uvm_driver #(pcie_tlp_packet);
     forever begin
       seq_item_port.get_next_item(pkt);
       `uvm_info("PCIE_TLP_DRV", $sformatf("Driving TLP: %s", pkt.sprint()), UVM_MEDIUM)
+      #123; //xac+ need to consume time to prove objection is needed
       seq_item_port.item_done();
     end
   endtask
@@ -113,7 +114,7 @@ class pcie_tlp_test extends uvm_test;
 
   pcie_tlp_env env;
   pcie_tlp_sequence seq; // xac+
-  
+
   function new(string name, uvm_component parent);
     super.new(name, parent);
   endfunction
@@ -126,19 +127,24 @@ class pcie_tlp_test extends uvm_test;
 
   task run_phase(uvm_phase phase);
     // pcie_tlp_sequence seq; // xac-
-    phase.raise_objection(this);
+    phase.raise_objection(this); // xac-
     // seq = pcie_tlp_sequence::type_id::create("seq"); // xac-
     seq.start(env.sequencer);
-    phase.drop_objection(this);
+    phase.drop_objection(this); //xac=
   endtask
 endclass
 
+
 // -------------------
-// Top Module
+// Top Level Module
 // -------------------
+
+
+
 module tb_top;
   import uvm_pkg::*;
   initial begin
+    $display("Start of simulation!"); // xac+
     run_test("pcie_tlp_test");
   end
 endmodule
