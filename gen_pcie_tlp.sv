@@ -14,6 +14,7 @@ class pcie_tlp_packet extends uvm_sequence_item;
   rand bit [31:0] data;
   rand bit [15:0] requester_id;
   rand bit [9:0] tag;
+  int cmd_seq = 0;
   rand tlp_type_e tlp_type; // renamed from 'type' to 'tlp_type'
 
   constraint c_type { tlp_type inside {MEM_RD, MEM_WR, CFG_RD, CFG_WR, CPL, CPLD}; }
