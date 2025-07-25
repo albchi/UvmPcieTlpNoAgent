@@ -1,0 +1,317 @@
+../simv up to date
+CPU time: 13.322 seconds to compile + .437 seconds to elab + .843 seconds to link
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Jul 25 10:57 2025
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test pcie_tlp_test...
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @633      
+  addr          integral         32    'h1e875360
+  data          integral         32    'h9e6a22d3
+  requester_id  integral         16    'h876     
+  tag           integral         10    'd202     
+  tlp_type      string           6     CFG_RD    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @633                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'h1e875360                    
+  data                         integral         32    'h9e6a22d3                    
+  requester_id                 integral         16    'h876                         
+  tag                          integral         10    'd202                         
+  tlp_type                     string           6     CFG_RD                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @640      
+  addr          integral         32    'h865ced8c
+  data          integral         32    'hac57137b
+  requester_id  integral         16    'hc526    
+  tag           integral         10    854       
+  tlp_type      string           6     MEM_RD    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @640                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'h865ced8c                    
+  data                         integral         32    'hac57137b                    
+  requester_id                 integral         16    'hc526                        
+  tag                          integral         10    854                           
+  tlp_type                     string           6     MEM_RD                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @644      
+  addr          integral         32    'h3c919dc0
+  data          integral         32    'h3409c8c 
+  requester_id  integral         16    'hf1f4    
+  tag           integral         10    'd238     
+  tlp_type      string           6     CFG_RD    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @644                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'h3c919dc0                    
+  data                         integral         32    'h3409c8c                     
+  requester_id                 integral         16    'hf1f4                        
+  tag                          integral         10    'd238                         
+  tlp_type                     string           6     CFG_RD                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @648      
+  addr          integral         32    'h5d350f6c
+  data          integral         32    'hb4df35ea
+  requester_id  integral         16    'hd903    
+  tag           integral         10    990       
+  tlp_type      string           6     CFG_RD    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @648                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'h5d350f6c                    
+  data                         integral         32    'hb4df35ea                    
+  requester_id                 integral         16    'hd903                        
+  tag                          integral         10    990                           
+  tlp_type                     string           6     CFG_RD                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @654      
+  addr          integral         32    'hb2f809bc
+  data          integral         32    'h437966ee
+  requester_id  integral         16    'h5b73    
+  tag           integral         10    650       
+  tlp_type      string           6     CFG_WR    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @654                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'hb2f809bc                    
+  data                         integral         32    'h437966ee                    
+  requester_id                 integral         16    'h5b73                        
+  tag                          integral         10    650                           
+  tlp_type                     string           6     CFG_WR                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @658      
+  addr          integral         32    'hf4e2d104
+  data          integral         32    'h9005955e
+  requester_id  integral         16    'h4ce     
+  tag           integral         10    'd257     
+  tlp_type      string           6     MEM_WR    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @658                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'hf4e2d104                    
+  data                         integral         32    'h9005955e                    
+  requester_id                 integral         16    'h4ce                         
+  tag                          integral         10    'd257                         
+  tlp_type                     string           6     MEM_WR                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @662      
+  addr          integral         32    'hb13ea0cc
+  data          integral         32    'h8a1b86bd
+  requester_id  integral         16    'h627a    
+  tag           integral         10    'd394     
+  tlp_type      string           6     CFG_WR    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @662                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'hb13ea0cc                    
+  data                         integral         32    'h8a1b86bd                    
+  requester_id                 integral         16    'h627a                        
+  tag                          integral         10    'd394                         
+  tlp_type                     string           6     CFG_WR                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @668      
+  addr          integral         32    'hab54326c
+  data          integral         32    'h63c37516
+  requester_id  integral         16    'h968c    
+  tag           integral         10    'd93      
+  tlp_type      string           6     MEM_WR    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @668                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'hab54326c                    
+  data                         integral         32    'h63c37516                    
+  requester_id                 integral         16    'h968c                        
+  tag                          integral         10    'd93                          
+  tlp_type                     string           6     MEM_WR                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @672      
+  addr          integral         32    'h55c83a3c
+  data          integral         32    'h6aea0b00
+  requester_id  integral         16    'he4dc    
+  tag           integral         10    'd189     
+  tlp_type      string           6     MEM_RD    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @672                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'h55c83a3c                    
+  data                         integral         32    'h6aea0b00                    
+  requester_id                 integral         16    'he4dc                        
+  tag                          integral         10    'd189                         
+  tlp_type                     string           6     MEM_RD                        
+------------------------------------------------------------------------------------
+
+UVM_INFO testbench.sv(57) @ 0: uvm_test_top.env.sequencer@@seq [PCIE_TLP_SEQ] Generated TLP: -------------------------------------------------
+Name            Type             Size  Value     
+-------------------------------------------------
+pkt             pcie_tlp_packet  -     @676      
+  addr          integral         32    'he4d50158
+  data          integral         32    'h7019a744
+  requester_id  integral         16    'h95ed    
+  tag           integral         10    'd84      
+  tlp_type      string           6     CFG_WR    
+-------------------------------------------------
+
+UVM_INFO testbench.sv(78) @ 0: uvm_test_top.env.driver [PCIE_TLP_DRV] Driving TLP: ------------------------------------------------------------------------------------
+Name                           Type             Size  Value                         
+------------------------------------------------------------------------------------
+pkt                            pcie_tlp_packet  -     @676                          
+  begin_time                   time             64    0                             
+  depth                        int              32    'd2                           
+  parent sequence (name)       string           3     seq                           
+  parent sequence (full name)  string           30    uvm_test_top.env.sequencer.seq
+  sequencer                    string           26    uvm_test_top.env.sequencer    
+  addr                         integral         32    'he4d50158                    
+  data                         integral         32    'h7019a744                    
+  requester_id                 integral         16    'h95ed                        
+  tag                          integral         10    'd84                          
+  tlp_type                     string           6     CFG_WR                        
+------------------------------------------------------------------------------------
+
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.1/src/base/uvm_objection.svh(1274) @ 0: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   22
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[PCIE_TLP_DRV]    10
+[PCIE_TLP_SEQ]    10
+[RNTST]     1
+[TEST_DONE]     1
+$finish called from file "/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.1/src/base/uvm_root.svh", line 437.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ps
+CPU Time:      0.480 seconds;       Data structure size:   0.2Mb
+Fri Jul 25 10:57:09 2025
+Done
